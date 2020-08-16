@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="2.js"></script>
+    <title>Form</title>
+</head>
+
+<body>
+
+    <div style="margin-top: 30px; margin-left: 100px; margin-bottom: 20px ; width: 700px; ">
+
+        <h3>Username</h3>
+        <div><input id="name" type="text" class="form-control " placeholder=" username"
+                style="width: 400px; border: 1px solid rgb(229, 255, 0); " required></div>
+        <br>
+        <h3>Password</h3>
+        <div><input id="pass" type="text" class="form-control " placeholder=" Password"
+                style="width: 400px;  border: 1px solid rgb(229, 255, 0);" required></div>
+        <br>
+        <h3>Email</h3>
+        <div><input id="mail" type="text" class="form-control " placeholder=" Email"
+                style="width: 400px;  border: 1px solid rgb(229, 255, 0);" required></div>
+        <br>
+        <div><button onclick="submit() " class="btn btn-primary ">Submit</button></div>
+
+    </div>
+    <div style="border-bottom: 1px solid black; width: 500px; margin-left: 50px;"></div>
+    <br>
+
+
+
+    <div id="display1" style=" margin-left: 100px;">
+        <div id="cloneItem" style="display: none;">
+            <div style="display: flex;">
+                <p style="border: 1px solid rgb(255, 60, 0); padding: 5px;">Username is: </p>
+                <div id="username" style="margin-left: 20px; color: brown;"></div>
+            </div>
+            <div style="display: flex;">
+                <p style="border: 1px solid rgb(255, 60, 0); padding: 5px;"> Password is: </p>
+                <div id="password" style="margin-left: 20px; color: brown;"></div>
+            </div>
+            <div style="display: flex;">
+                <p style="border: 1px solid rgb(255, 60, 0); padding: 5px;">Email is: </p>
+                <div id="Email" style="margin-left: 20px; color: brown; "></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
